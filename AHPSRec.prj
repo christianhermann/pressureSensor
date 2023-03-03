@@ -1,15 +1,15 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\Matlab\AHPSRec.prj" location="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\Matlab" name="AHPSRec" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2072321082" file="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec.prj" location="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor" name="AHPSRec" preferred-package-location="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>AHPSRec</param.appname>
     <param.icon />
     <param.icons />
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.authnamewatermark>Christian Hermann</param.authnamewatermark>
     <param.email>christian.hermann@lrz.uni-muenchen.de</param.email>
     <param.company />
     <param.summary>Software to view and record data through an Arduino from a pressure sensor via I2C</param.summary>
     <param.description />
-    <param.screenshot />
+    <param.screenshot>${PROJECT_ROOT}\mouse-side-view-publicdomain.jpg</param.screenshot>
     <param.guid />
     <param.installpath.string>\AHPSRec\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
@@ -50,12 +50,10 @@
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
       <param.authnamewatermark />
       <param.email />
       <param.company />
       <param.description />
-      <param.screenshot />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
@@ -226,22 +224,41 @@
       <file>C:\ProgramData\MATLAB\SupportPackages\R2020b\toolbox\target\shared\ioserver\+matlabshared\+ioclient\IOProtocol.p</file>
       <file>C:\ProgramData\MATLAB\SupportPackages\R2020b\toolbox\target\shared\svd\+matlabshared\+svd\+internal\getRootDir.p</file>
       <file>${PROJECT_ROOT}\AHPSRec_ArduinoInfo.mlapp</file>
+      <file>${PROJECT_ROOT}\mouse-side-view-publicdomain.jpg</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="readme.txt" optional="true">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\Matlab\AHPSRec\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="splash.png" optional="false">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\Matlab\AHPSRec\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="AHPSRec.exe" optional="false">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\Matlab\AHPSRec\for_testing\AHPSRec.exe</file>
+      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="AHPSRec.exe" optional="false">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\AHPSRec.exe</file>
+      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="splash.png" optional="false">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="readme.txt" optional="true">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\readme.txt</file>
     </build-deliverables>
     <workflow />
     <matlab>
       <root>C:\Program Files\MATLAB\R2020b</root>
       <toolboxes>
+        <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
       </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
       <toolbox>
         <embeddedcoder>
           <enabled>true</enabled>
         </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
       </toolbox>
     </matlab>
     <platform>
