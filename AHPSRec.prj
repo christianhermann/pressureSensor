@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="2072321082" file="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec.prj" location="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor" name="AHPSRec" preferred-package-location="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2072321082" file="U:\Projekte\Christian\Misc\Drucksensor\pressureSensor\AHPSRec.prj" location="U:\Projekte\Christian\Misc\Drucksensor\pressureSensor" name="AHPSRec" preferred-package-location="U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>AHPSRec</param.appname>
     <param.icon>${PROJECT_ROOT}\AHPSRec_resources\icon.ico</param.icon>
     <param.icons>
@@ -20,8 +20,7 @@
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo />
     <param.install.notes />
-    <param.target.install.notes>* This program requires:
--- Arduino from &lt;a href="https://downloads.arduino.cc/arduino-1.8.10-windows.zip"&gt;https://downloads.arduino.cc/arduino-1.8.10-windows.zip&lt;/a&gt;</param.target.install.notes>
+    <param.target.install.notes />
     <param.intermediate>${PROJECT_ROOT}\AHPSRec\for_testing</param.intermediate>
     <param.files.only>${PROJECT_ROOT}\AHPSRec\for_redistribution_files_only</param.files.only>
     <param.output>${PROJECT_ROOT}\AHPSRec\for_redistribution</param.output>
@@ -29,11 +28,7 @@
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
-    <param.support.packages>
-      <item>&lt;package displayname="MATLAB Support Package for Arduino Hardware" enabled="true" name="MATLAB Support Package for Arduino Hardware" product="MATLAB"&gt;
-   &lt;thirdparty downloadurl="" name="Arduino" url="https://downloads.arduino.cc/arduino-1.8.10-windows.zip"/&gt;
-&lt;/package&gt;</item>
-    </param.support.packages>
+    <param.support.packages />
     <param.web.mcr>true</param.web.mcr>
     <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
@@ -62,6 +57,7 @@
       <param.installpath.combo />
       <param.logo />
       <param.install.notes />
+      <param.target.install.notes />
       <param.intermediate />
       <param.files.only />
       <param.output />
@@ -69,6 +65,7 @@
       <param.enable.clean.build />
       <param.user.defined.mcr.options />
       <param.target.type />
+      <param.support.packages />
       <param.web.mcr />
       <param.package.mcr />
       <param.no.mcr />
@@ -90,158 +87,20 @@
       <file>C:\Users\ru84xuc\Downloads\arduino-1.8.13-windows.zip</file>
     </fileset.package>
     <fileset.depfun>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+adc\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+adc\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+addon\AddonBase.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+addon\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+addon\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+addon\LibraryBase.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+can\Channel.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+can\ChannelProvider.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+can\Node.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+dio\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+dio\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\+connections\BLEConnectionController.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\+connections\BluetoothConnectionController.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\+connections\ConnectionController.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\+connections\SerialConnectionController.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\+connections\WiFiConnectionController.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\ActiveLevelEnum.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\base.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\BitOrderEnum.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\BluetoothDeviceTypeEnum.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\ConnectionTypeEnum.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\endsWith.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\findSubClasses.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\footer.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\InterfaceEnum.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\localizedError.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\localizedWarning.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\precisions.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\renderArrayOfIntsToCharVector.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\renderArrayOfIntsToString.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\renderArrayOfPinStringsToRangedCharacterVector.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\renderArrayOfPinStringsToRangedString.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\renderArrayOfStringsToString.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\renderCellArrayOfCharVectorsToCharVector.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\renderCellArrayOfStringsToString.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\sizeof.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\validateDigitalParameter.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\validateDoubleParameterPos.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\validateDoubleParameterRanged.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\validateHexParameterRanged.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\validateIntArrayParameterRanged.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\validateIntParameter.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\validateIntParameterRanged.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\WiFiEncryptionTypeEnum.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\+internal\WiFiStatusEnum.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+hwsdk\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+i2c\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+i2c\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+i2c\device.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+pwm\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+pwm\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+rawDevice\device.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+serial\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+serial\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+serial\device.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+spi\controller.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+spi\controller_base.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\shared\hwsdk\+matlabshared\+spi\device.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\AnalogInput.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\DigitalIO.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\I2C.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\PlayTone.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\PWM.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\RotaryEncoder.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\SCI.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\Servo.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\ShiftRegister.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\SPI.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\+debug\Ultrasonic.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ArduinoDataUtilityHelper.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ArduinoDataUtilityParser.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ArduinoHWInfo.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\debugMessage.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\getPortBoardIDE.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\MLCompiler_Arduino.mlapp</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ResourceManager.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\TabCompletionHelper.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\DCMotor.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\DCMotorBase.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\MotorCarrier.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\PIDMotor.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\PIDMotorPosition.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\PIDMotorSpeed.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\RotaryEncoder.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+motorcarrier\Servo.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+sensors\+apds9960\APDS9960.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+sensors\+apds9960\ColorConfiguration.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+sensors\+apds9960\GestureConfiguration.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+sensors\+apds9960\Gestures.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+sensors\+apds9960\ProximityConfiguration.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+setup\+internal\HardwareInterface.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\ArduinoMCP2515.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\FilePath.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\MCP2515.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\MotorBase.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\RotaryEncoder.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\Servo.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\ServoMotorBase.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\ShiftRegister.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\SPPKGRoot.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\Ultrasonic.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\apps\arduinoexplorer\+arduinoioapplet\+descriptors\BluetoothDeviceDescriptor.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\apps\arduinoexplorer\+arduinoioapplet\+descriptors\USBDeviceDescriptor.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\apps\arduinoexplorer\+arduinoioapplet\+descriptors\WiFiDeviceDescriptor.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\apps\arduinoexplorer\+arduinoioapplet\+internal\ArduinoAppConstants.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\apps\arduinoexplorer\+arduinoioapplet\+internal\FormFactorTypesEnum.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\apps\arduinoexplorer\+arduinoioapplet\+internal\Utility.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\apps\arduinoexplorer\+arduinoioapplet\+modules\+interfaces\ArduinoManager.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\arduino.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\arduinoio\listArduinoLibraries.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinodriver\ArduinoDigitalIO.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinodriver\ArduinoDigitalIO.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinodriver\ArduinoI2C.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinodriver\ArduinoI2C.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinodriver\ArduinoSPI.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinodriver\ArduinoSPI.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\accessor.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\ArduinoConstants.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\BoardInfo.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\CopyServerToTemp.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\getDefaultLibraryPropertyValue.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\LinuxUtility.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\MacUtility.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\searchDefaultPropertyValue.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\Utility.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\UtilityCreator.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\+internal\WindowsUtility.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\IDERoot.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+arduinoio\SharedArduinoRoot.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+matlab\+hwmgr\+providers\ArduinoDeviceProvider.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+simulinkio\arduinoioserver.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+simulinkio\arduinoioserver.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+simulinkio\getBaudRate.m</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\matlab\hardware\supportpackages\sharedarduino\+simulinkio\getBaudRate.p</file>
-      <file>C:\ProgramData\MATLAB\SupportPackages\R2023a\toolbox\realtime\targets\arduinoide\+ide\+internal\getArduinoIDERootDir.p</file>
       <file>${PROJECT_ROOT}\AHPSRec_ArduinoInfo.mlapp</file>
       <file>${PROJECT_ROOT}\mouse-side-view-publicdomain.jpg</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="AHPSRec.exe" optional="false">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\AHPSRec.exe</file>
-      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="splash.png" optional="false">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="readme.txt" optional="true">U:\Projekte an Analysis1\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="splash.png" optional="false">U:\Projekte\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="readme.txt" optional="true">U:\Projekte\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\AHPSRec\for_testing" name="AHPSRec.exe" optional="false">U:\Projekte\Christian\Misc\Drucksensor\pressureSensor\AHPSRec\for_testing\AHPSRec.exe</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2023a</root>
+      <root>C:\Program Files\MATLAB\R2024a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
-        <toolbox name="embeddedcoder" />
         <toolbox name="fixedpoint" />
-        <toolbox name="neuralnetwork" />
       </toolboxes>
       <toolbox>
         <matlabcoder>
@@ -249,19 +108,9 @@
         </matlabcoder>
       </toolbox>
       <toolbox>
-        <embeddedcoder>
-          <enabled>true</enabled>
-        </embeddedcoder>
-      </toolbox>
-      <toolbox>
         <fixedpoint>
           <enabled>true</enabled>
         </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <neuralnetwork>
-          <enabled>true</enabled>
-        </neuralnetwork>
       </toolbox>
     </matlab>
     <platform>
